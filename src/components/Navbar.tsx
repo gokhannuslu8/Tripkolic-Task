@@ -36,7 +36,7 @@ const Navbar = ({ onFiltersChange }: NavbarProps) => {
 
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <Image 
-              src="/images/logo.png"
+              src="/images/Logo.png"
               alt="Logo"
               width={100}
               height={40}

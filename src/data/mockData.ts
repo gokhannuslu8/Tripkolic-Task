@@ -10,7 +10,7 @@ export const mockTours: TourType[] = [
     rating: 4.3,
     reviews: 20,
     discount: 30,
-    image: "/images/tours/phi-phi.jpg",
+    image: "/images/tours/Phi-Phi.jpg",
     category: 'Tours',
     features: ['Transfer', 'Vegetarian food'],
     activities: ['Swimming', 'Snorkelling'],
