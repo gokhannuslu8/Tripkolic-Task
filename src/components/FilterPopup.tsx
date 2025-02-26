@@ -106,9 +106,9 @@ export default function FilterPopup({ isOpen, onClose, selectedCategory, onFilte
       />
       
       {/* Slide-in Panel */}
-      <div className="fixed inset-y-0 left-0 w-[400px] bg-white z-50 shadow-xl transform transition-transform duration-300 ease-in-out">
+      <div className="fixed md:inset-y-[35px] md:left-[20px] inset-0 md:w-[400px] w-full bg-white z-50 shadow-xl transform transition-transform duration-300 ease-in-out md:rounded-[20px] rounded-t-[20px] md:h-[calc(100vh-50px)] h-[94vh] mt-auto">
         <div className="h-full overflow-y-auto">
-          <div className="p-6">
+          <div className="p-4 md:p-6">
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center gap-4 flex-1">
                 <span className="bg-orange-500 text-white px-4 py-2 rounded-md">TOURS</span>
